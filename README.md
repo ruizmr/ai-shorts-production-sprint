@@ -27,6 +27,16 @@ This sprint replaces that pile with a small, model-agnostic content operating sy
 
 You keep an editable source of truth instead of starting over with every short.
 
+## Inspect the working method before you inquire
+
+A public, worked fictional channel demonstrates the underlying file structure and continuity locks:
+
+- [channel, canon, series, and episode source](https://github.com/ruizmr/minimax-h3-runpod/tree/main/room/10-Channels/Night%20Shift%20Supply)
+- [the compiler/linter implementation](https://github.com/ruizmr/minimax-h3-runpod/blob/main/room/tools/roomctl.py)
+- [the worked four-shot episode](https://github.com/ruizmr/minimax-h3-runpod/blob/main/room/10-Channels/Night%20Shift%20Supply/Episodes/ep-001-a-single-egg.md)
+
+This is proof of the planning/compiler method, not proof of finished model renders or campaign performance. No such claim is made.
+
 ## What you receive
 
 For **one brand / one channel**, the sprint includes:
