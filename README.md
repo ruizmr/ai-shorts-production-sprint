@@ -1,5 +1,7 @@
 # AI Shorts Production System Sprint
 
+[Español](README.es.md)
+
 ## A reusable writers’ room for consistent AI short-form video
 
 Turn your brand rules, recurring characters, locations, and content ideas into a structured production system—then receive the next **3–4 episodes as 12–20 render-ready shot packages**.
