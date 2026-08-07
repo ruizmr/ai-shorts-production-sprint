@@ -1,0 +1,144 @@
+name: AI Shorts Sprint pilot intake
+description: Request a written scope for the fixed $1,250 production-system sprint.
+title: "Pilot intake: [brand or studio name]"
+labels:
+  - pilot-intake
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Before you begin
+        This public-safe intake is an inquiry, not an order. **Do not post passwords, API keys, wallet keys, mnemonics, private customer data, unreleased campaign details, or licensed assets.** We will agree a secure channel if sensitive material is needed.
+
+        The fixed sprint delivers a customized writers’ room, canon, one series, and 3–4 compiled episodes (12–20 shots). It does **not** guarantee renders or include publishing.
+
+  - type: checkboxes
+    id: safe_intake
+    attributes:
+      label: Public-safe intake
+      options:
+        - label: I confirm this issue contains no secrets, credentials, private keys, mnemonics, sensitive personal data, or confidential campaign materials.
+          required: true
+
+  - type: input
+    id: organization
+    attributes:
+      label: Brand, studio, or agency
+      description: Use a public-facing name or a neutral placeholder.
+      placeholder: Example Studio
+    validations:
+      required: true
+
+  - type: input
+    id: website
+    attributes:
+      label: Public website or social profile (optional)
+      description: Link only to material already intended for public viewing.
+      placeholder: https://example.com
+
+  - type: dropdown
+    id: buyer_type
+    attributes:
+      label: Which best describes you?
+      options:
+        - Boutique social agency
+        - AI-video freelancer or creator studio
+        - Founder-led or DTC brand
+        - Independent creator
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: goal
+    attributes:
+      label: What should this content system help you do?
+      description: Describe the recurring audience, content problem, and desired workflow. Do not include confidential strategy.
+      placeholder: We want a repeatable weekly short-form series with more consistent characters and locations.
+    validations:
+      required: true
+
+  - type: textarea
+    id: brand_public
+    attributes:
+      label: Public-safe brand direction
+      description: Share voice, visual references, audience, constraints, and themes that are safe to post publicly.
+      placeholder: "Voice: dry and understated. Visual direction: practical lighting, locked camera..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: canon
+    attributes:
+      label: Proposed recurring canon
+      description: The sprint includes up to 2 recurring characters, 2 locations, and 3 props. Names or brief public-safe descriptions are enough for intake.
+      placeholder: |
+        Characters: ...
+        Locations: ...
+        Props: ...
+    validations:
+      required: true
+
+  - type: input
+    id: generator
+    attributes:
+      label: Generator for the one model-dialect pass
+      description: Name one generator you already use. Adaptation is limited to its documented input format and does not guarantee output quality.
+      placeholder: Kling, Runway, Veo, MiniMax, or another tool
+    validations:
+      required: true
+
+  - type: dropdown
+    id: operator
+    attributes:
+      label: Who will operate the video generator and review creative output?
+      options:
+        - Our internal team
+        - Our agency or production partner
+        - Me, as an independent creator
+        - Not yet decided
+    validations:
+      required: true
+
+  - type: input
+    id: target_start
+    attributes:
+      label: Preferred start date
+      description: The five-business-day clock begins only after written scope approval, cleared deposit, and receipt of agreed materials.
+      placeholder: YYYY-MM-DD or flexible
+    validations:
+      required: true
+
+  - type: textarea
+    id: restrictions
+    attributes:
+      label: AI-processing restrictions or other constraints
+      description: AI agents normally assist with drafting, compilation, and QA. State any restrictions now; do not include sensitive material itself.
+      placeholder: No additional restrictions / describe public-safe restrictions
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: service_acknowledgments
+    attributes:
+      label: Service acknowledgments
+      description: All boxes are required before we can prepare a scope.
+      options:
+        - label: I understand the fixed deliverables are one channel system, the stated compact canon, one series, 3–4 episodes totaling 12–20 shots, compiled handoffs, one model-dialect pass, one revision round, and a handoff session.
+          required: true
+        - label: I understand this sprint does not include or guarantee video renders, GPU/model credits, publishing, platform approval, audience performance, legal clearance, hosted software, or unlimited revisions.
+          required: true
+        - label: I authorize AI-agent assistance for public-safe intake analysis, drafting, local linting/compilation, deterministic QA, and documentation, subject to the restrictions in the written scope.
+          required: true
+        - label: I understand AI agents are not authorized by this intake to access secrets, run paid generation, publish externally, incur charges, or move funds.
+          required: true
+        - label: I understand no work or payment is due until both sides approve a written scope.
+          required: true
+        - label: I understand the fixed price is $1,250, with a $250 booking deposit and $1,000 balance on acceptance, payable only in USDC on Base after written scope and verified payment instructions.
+          required: true
+
+  - type: textarea
+    id: questions
+    attributes:
+      label: Questions or public-safe notes (optional)
+      description: Add anything needed to assess fit. Sensitive details can wait for an agreed secure channel.
