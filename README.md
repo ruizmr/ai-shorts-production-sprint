@@ -36,6 +36,7 @@ A public, worked fictional channel demonstrates the underlying file structure an
 - [channel, canon, series, and episode source](https://github.com/ruizmr/minimax-h3-runpod/tree/main/room/10-Channels/Night%20Shift%20Supply)
 - [the compiler/linter implementation](https://github.com/ruizmr/minimax-h3-runpod/blob/main/room/tools/roomctl.py)
 - [the worked four-shot episode](https://github.com/ruizmr/minimax-h3-runpod/blob/main/room/10-Channels/Night%20Shift%20Supply/Episodes/ep-001-a-single-egg.md)
+- [a compact sample delivery bundle](sample/) with a human-readable shot package and matching machine-readable manifest
 
 This is proof of the planning/compiler method, not proof of finished model renders or campaign performance. No such claim is made.
 

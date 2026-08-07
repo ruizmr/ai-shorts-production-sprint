@@ -35,7 +35,8 @@ Un canal ficticio público y desarrollado demuestra la estructura de archivos su
 
 - [fuente del canal, el canon, la serie y el episodio](https://github.com/ruizmr/minimax-h3-runpod/tree/main/room/10-Channels/Night%20Shift%20Supply)
 - [implementación del compilador/linter](https://github.com/ruizmr/minimax-h3-runpod/blob/main/room/tools/roomctl.py)
-- [episodio desarrollado de cuatro planos](https://github.com/ruizmr/minimax-h3-runpod/blob/main/room/10-Channels/Night%20Shift%20Supply/Episodes/ep-001-a-single-egg.md)
+- [un episodio desarrollado de cuatro planos](https://github.com/ruizmr/minimax-h3-runpod/blob/main/room/10-Channels/Night%20Shift%20Supply/Episodes/ep-001-a-single-egg.md)
+- [un paquete de entrega de muestra compacto](sample/) con un paquete de planos legible por personas y el manifiesto equivalente legible por máquina
 
 Esto demuestra el método de planificación/compilación, no la existencia de renderizados finales del modelo ni el rendimiento de una campaña. No se hace ninguna afirmación de ese tipo.
 

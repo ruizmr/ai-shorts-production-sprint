@@ -1,0 +1,223 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "planning_manifest",
+  "artifact_status": {
+    "planning_only": true,
+    "rendered_media": false,
+    "published": false,
+    "performance_evaluated": false
+  },
+  "source": {
+    "channel_url": "https://github.com/ruizmr/minimax-h3-runpod/tree/main/room/10-Channels/Night%20Shift%20Supply",
+    "episode_url": "https://github.com/ruizmr/minimax-h3-runpod/blob/main/room/10-Channels/Night%20Shift%20Supply/Episodes/ep-001-a-single-egg.md"
+  },
+  "channel": {
+    "id": "nightshift",
+    "title": "Night Shift Supply",
+    "handle": "@nightshiftsupply"
+  },
+  "series": {
+    "id": "nothing-happens",
+    "title": "Nothing Happens",
+    "format_beats": [
+      "ask",
+      "refuse",
+      "escalate",
+      "hold"
+    ],
+    "ending": "unresolved hold"
+  },
+  "episode": {
+    "id": "ep-001-a-single-egg",
+    "title": "A Single Egg",
+    "premise": "The Regular wants to buy one egg. The store sells eggs by the dozen.",
+    "hook": "A woman is already arguing about eggs before the clip has finished loading.",
+    "planned_duration_seconds": 40
+  },
+  "inheritance": {
+    "look": {
+      "film": "Expired 16mm stock; halation around every light source; grain visible in shadows.",
+      "lens": "Wide 28mm at chest height; slight edge barrel distortion; focus hunts briefly before settling.",
+      "lighting": "Only practical room sources; one source dominant and everything else falling to black.",
+      "palette": "Sodium-vapor amber against cold fluorescent green, with one saturated red object.",
+      "grade": "Crushed blacks and blown highlights; no lifted shadows.",
+      "texture": "Fingerprints, condensation, dust in light, and frequently touched surfaces.",
+      "default_camera": "Locked-off wide with no movement; bystander framing."
+    },
+    "series_override": "Hold one frame longer than feels comfortable before anything moves.",
+    "audio_bed": "Fluorescent hum, cooler compressor cycling, and distant traffic through glass.",
+    "negative_intent": [
+      "drone or aerial shots",
+      "lens flare added in post",
+      "orchestral or swelling score",
+      "anyone smiling directly at camera",
+      "daylight exteriors",
+      "text or logos in frame",
+      "slow motion",
+      "shallow depth of field on wide shots",
+      "third character speaking"
+    ]
+  },
+  "entities": {
+    "characters": {
+      "the-regular": {
+        "name": "The Regular",
+        "lock": "Early-30s wiry white woman; wet dark hair pushed back; oversized mechanic's jacket with name patch torn off; sleep shorts; unlaced boots; face-down phone held in one hand; chipped black nail polish.",
+        "delivery": "Quick, mid-thought, as though continuing a conversation.",
+        "negative_intent": [
+          "never shown entering or leaving",
+          "phone never screen-up",
+          "never crosses behind the counter"
+        ]
+      },
+      "vic": {
+        "name": "Vic",
+        "lock": "Late-40s heavy-set Black man; close-shaved head greying at temples; wire-frame glasses on forehead; oversized faded navy store polo with soft collar; empty lanyard; forearms on counter.",
+        "delivery": "Flat, unhurried, without looking up.",
+        "negative_intent": [
+          "never fully upright",
+          "glasses not worn on face in this episode",
+          "never raises his voice"
+        ]
+      }
+    },
+    "locations": {
+      "the-counter": {
+        "name": "The Counter",
+        "lock": "Scratched laminate convenience-store counter; lottery dispenser, worn-key register, lighter box, empty hot-dog roller, clerk-facing security monitor, half-empty cigarette racks, and one flickering fluorescent tube; black windows reflect the interior.",
+        "negative_intent": [
+          "no background customers",
+          "no daylight through windows"
+        ]
+      },
+      "aisle-three": {
+        "name": "Aisle Three",
+        "lock": "Narrow aisle with glass-doored coolers left, motor oil and windshield fluid right, green cooler light on wet-looking tile, one internally fogged door, and darkness at the far end.",
+        "negative_intent": [
+          "no overhead aisle lighting",
+          "wet-floor sign never moved or removed"
+        ]
+      }
+    },
+    "props": {
+      "wet-floor-sign": {
+        "name": "The Wet Floor Sign",
+        "lock": "Yellow folding WET FLOOR sign, scuffed with one cracked panel, upright on dry tile.",
+        "negative_intent": [
+          "never flat",
+          "no mop or bucket"
+        ]
+      },
+      "single-egg": {
+        "name": "Single egg",
+        "continuity_role": "Removed from the twelve-egg carton in shot 3 and placed between the characters in shot 4."
+      }
+    }
+  },
+  "shots": [
+    {
+      "id": "ep-001-a-single-egg-s01",
+      "sequence": 1,
+      "beat": "ask",
+      "duration_seconds": 10,
+      "cast_ids": [
+        "the-regular"
+      ],
+      "location_id": "the-counter",
+      "prop_ids": [],
+      "action": "The Regular is already leaning on the counter mid-sentence, tapping the laminate once per word; her phone is face-down beside her hand.",
+      "camera": "Locked-off wide at chest height; counter across bottom third; flickering tube at top edge.",
+      "dialogue": [
+        {
+          "character_id": "the-regular",
+          "line": "So do you sell one egg."
+        }
+      ],
+      "added_audio": "A fingernail tapping laminate four times.",
+      "continuity": {
+        "incoming": "Establish canonical counter, The Regular, and face-down phone.",
+        "outgoing": "The Regular's finger is stopped mid-tap, resting on the counter."
+      }
+    },
+    {
+      "id": "ep-001-a-single-egg-s02",
+      "sequence": 2,
+      "beat": "refuse",
+      "duration_seconds": 10,
+      "cast_ids": [
+        "vic",
+        "the-regular"
+      ],
+      "location_id": "the-counter",
+      "prop_ids": [],
+      "action": "Vic does not look up from the security monitor. He turns one delivery-pad page while The Regular waits with her whole body.",
+      "camera": "Same locked-off wide, unchanged; Vic is the only new information.",
+      "dialogue": [
+        {
+          "character_id": "vic",
+          "line": "We sell twelve."
+        }
+      ],
+      "added_audio": "One page turning.",
+      "continuity": {
+        "incoming": "Retain shot 1 counter framing, The Regular lock, and face-down phone; add canonical Vic behind the counter.",
+        "outgoing": "Vic's hand is flat on the closed delivery pad; glasses remain on his forehead."
+      }
+    },
+    {
+      "id": "ep-001-a-single-egg-s03",
+      "sequence": 3,
+      "beat": "escalate",
+      "duration_seconds": 10,
+      "cast_ids": [
+        "the-regular"
+      ],
+      "location_id": "aisle-three",
+      "prop_ids": [
+        "wet-floor-sign",
+        "single-egg"
+      ],
+      "action": "The Regular considers a twelve-egg carton before the open cooler, removes one egg, and returns the carton to the shelf.",
+      "camera": "Locked-off wide down the aisle; wet-floor sign near frame; darkness at far end.",
+      "dialogue": [],
+      "added_audio": "A cooler-door seal releasing, then closing.",
+      "continuity": {
+        "incoming": "Planned move to canonical Aisle Three; retain The Regular appearance and face-down-phone locks; wet-floor sign upright in its fixed position.",
+        "outgoing": "One egg is held at chest height in an otherwise empty hand; cooler door swings shut behind her."
+      }
+    },
+    {
+      "id": "ep-001-a-single-egg-s04",
+      "sequence": 4,
+      "beat": "hold",
+      "duration_seconds": 10,
+      "cast_ids": [
+        "vic",
+        "the-regular"
+      ],
+      "location_id": "the-counter",
+      "prop_ids": [
+        "single-egg"
+      ],
+      "action": "The Regular sets the single egg on the counter. Vic looks at the egg, not her. Neither moves for the rest of the shot.",
+      "camera": "Return to the same locked-off counter wide, held past comfort; only the fluorescent tube changes.",
+      "dialogue": [],
+      "added_audio": "An egg set down on laminate, then only the inherited room bed.",
+      "continuity": {
+        "incoming": "Carry the shot 3 egg into the canonical shot 1–2 counter frame; restore Vic's shot 2 appearance, glasses, and counter position; retain The Regular locks.",
+        "outgoing": "The egg is alone at the centre of the counter between them; the episode remains unresolved."
+      }
+    }
+  ],
+  "post_plan": {
+    "caption": "he's not going to charge her for it and she knows that",
+    "hashtags": [
+      "nightshift",
+      "3am",
+      "retailworker",
+      "shortfilm"
+    ],
+    "sound": "Original audio. No music.",
+    "publishing_authorized": false
+  }
+}
